@@ -1,0 +1,38 @@
+header {border-bottom: 1px solid #ECECEC;}
+
+.page-header {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    // padding: 16px 15px;
+    height: 60px;
+
+    @media screen and (min-width: 768px) {
+        padding: 0 15px;
+        height: 80px;
+    }
+}
+
+.page-header__nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+
+
+    @media screen and (max-width: 767px) {
+        justify-content: space-between;
+    }
+}
+
+.contacts-social {
+    margin: 0px;
+
+    @media screen and (min-width: 768px) {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+    }
+
+}
+
