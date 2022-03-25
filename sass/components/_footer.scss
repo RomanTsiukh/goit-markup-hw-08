@@ -17,7 +17,7 @@ footer {
     }
 }
 
-.aaa {
+.footer__minibox {
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         display: flex;
         justify-content: space-around;
@@ -97,9 +97,6 @@ footer {
     display: inline-block;
 }
     
-
-
-
 
 
 /*Форма в футере*/

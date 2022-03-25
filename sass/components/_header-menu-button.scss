@@ -2,7 +2,6 @@
 .menu-button {
     display: flex;
     margin: 0;
-    // z-index: 1;
     background: transparent;
     
     padding: 0;
@@ -16,7 +15,6 @@
 .menu-close{
     display: flex;
     margin: 0;
-    // z-index: 1;
     background: transparent;
     
     padding: 0;
@@ -48,7 +46,6 @@
 
     @media screen and (max-width: 767px) {
         display: none;
-        // position: absolute;
         position: fixed;
 
         top: 0;
@@ -70,4 +67,6 @@
         margin-left: 88px;
         width: 100%;
     }
+
+    @media screen and (min-width: 1200px) {margin-left: 93px;}
 }
