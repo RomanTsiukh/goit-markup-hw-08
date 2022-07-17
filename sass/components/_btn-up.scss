@@ -1,0 +1,24 @@
+.btn{
+    color: $primary-white-color;
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: $secondery-grey-color;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: transform .3s cubic-bezier(.4,0,.2,1),box-shadow .3s cubic-bezier(.4,0,.2,1);
+
+    &:hover, &:focus {               
+        background-color: $accent-color;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        transform: scale(1.1);
+    }
+}
